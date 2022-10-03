@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "employee-directory",
+        "repo_url": "https://github.com/takolad/employee-directory",
+        "deploy_url": "https://takolad.github.io/employee-directory/",
+        "img": "https://raw.githubusercontent.com/takolad/employee-directory/main/assets/images/img-default.png",
+        "type": "solo",
+        "description": "This app is a React based employee directory that allows employees or managers to view non-sensitive data about other employees. The Directory is populated by data from the Random User Generator API."
+    },
+    {
+        "id": 2,
+        "name": "budget-tracker",
+        "repo_url": "https://github.com/takolad/budget-tracker",
+        "deploy_url": "https://budget-citadel-90310.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/budget-tracker/main/public/assets/images/site-img.png",
+        "type": "solo",
+        "description": "A budget tracker with online/offline functionality, transactions can be entered offline and populate the total once returning online."
+    },
+    {
+        "id": 3,
+        "name": "wandering-adventure",
+        "repo_url": "https://github.com/madison-vega/wandering-adventure",
+        "deploy_url": "https://wanderingadventure.herokuapp.com/",
+        "img": "https://camo.githubusercontent.com/b70a6d3120285156cd72eeb55a9e26d31f778670ce8b095ddb5bbffa416c0cf0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7832506d4d37633857356a626f324d4352512f67697068792e676966",
+        "type": "group",
+        "description": "A text-adventure web game app, allows a user to create a character and explore and engage in both combat and non-combat events."
+    },
+    {
+        "id": 4,
+        "name": "weather_dashboard",
+        "repo_url": "https://github.com/takolad/weather_dashboard",
+        "deploy_url": "https://takolad.github.io/weather_dashboard/",
+        "img": "https://raw.githubusercontent.com/takolad/weather_dashboard/main/assets/images/screen1.png",
+        "type": "solo",
+        "description": "This is a weather outlook page for the purpose of planning a trip. The site utilizes the third-party API, OpenWeather, to access and display weather information in a web based dashboard."
+    },
+    {
+        "id": 5,
+        "name": "note-taker",
+        "repo_url": "https://github.com/takolad/note-taker",
+        "deploy_url": "https://whispering-wave.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/note-taker/main/public/assets/images/img-note_taker.png",
+        "type": "solo",
+        "description": "A note taking application using Express.js for the back end, saves and retrieves note data from a JSON file. The application is deployed to Heroku."
+    },
+    {
+        "id": 6,
+        "name": "tech-blog",
+        "repo_url": "https://github.com/takolad/tech-blog",
+        "deploy_url": "https://lit-castle-83748.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/tech-blog/main/assets/images/site-img.png",
+        "type": "solo",
+        "description": "A CMS-style blog site for developers to blog posts and comment on other developers' posts. The app will follow the MVC paradigm in structure using Handlebars.js for templating, Sequelize as ORM, and express-session for authentication."
+    }
+]

@@ -1,0 +1,22 @@
+.self-img {
+  border-radius: 50%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.contact-card {
+  padding: 3rem;
+}
+
+.contact-info {
+  height: 100%;
+  display: inline-grid;
+  align-content: center;
+  display: -ms-inline-grid;
+}
+
+@-moz-document url-prefix() {
+  .contact-info {
+    position: relative;
+  }
+}
