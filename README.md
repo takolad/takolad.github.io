@@ -10,5 +10,5 @@
 
 ## Links
 
-[Repo](https://github.com/takolad/react-portfolio)  
-[Deployed Site](https://takolad.github.io/react-portfolio/)
+[Repo](https://github.com/takolad/takolad.github.io)  
+[Deployed Site](https://takolad.github.io/)
