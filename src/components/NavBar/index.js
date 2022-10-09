@@ -8,19 +8,19 @@ function NavBar() {
   return (
     <Navbar bg="primary" variant="dark" expand="md" sticky="top">
       <Container>
-        <Navbar.Brand href="/react-portfolio/">
+        <Navbar.Brand href="/">
           John Hinojosa's Portfolio
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link className="nav-link" to="/react-portfolio/">
+            <Link className="nav-link" to="/">
               Home
             </Link>
-            <Link className="nav-link" to="/react-portfolio/portfolio">
+            <Link className="nav-link" to="/portfolio">
               Portfolio
             </Link>
-            <Link className="nav-link" to="/react-portfolio/contact">
+            <Link className="nav-link" to="/contact">
               Contact
             </Link>
           </Nav>

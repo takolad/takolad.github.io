@@ -41,7 +41,7 @@ function Home() {
                   <Col sm={12} className="text-center">
                     <Link
                       className="text-white btn btn-primary bg-gradient"
-                      to="/react-portfolio/portfolio"
+                      to="/portfolio"
                     >
                       View My Portfolio
                     </Link>

@@ -17,12 +17,12 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/react-portfolio/" element=<Home /> />
-        <Route exact path="/react-portfolio/home" element=<Home /> />
-        <Route exact path="/react-portfolio/portfolio" element=<Portfolio /> />
-        <Route exact path="/react-portfolio/portfolio/:id" element=<Detail /> />
-        <Route exact path="/react-portfolio/contact" element=<Contact /> />
-        <Route path="*" render={() => <Navigate to="/react-portfolio/" />} />
+        <Route exact path="/" element=<Home /> />
+        <Route exact path="/home" element=<Home /> />
+        <Route exact path="/portfolio" element=<Portfolio /> />
+        <Route exact path="/portfolio/:id" element=<Detail /> />
+        <Route exact path="/contact" element=<Contact /> />
+        <Route path="*" render={() => <Navigate to="/" />} />
       </Routes>
       <Footer />
     </Router>
