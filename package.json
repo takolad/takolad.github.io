@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "homepage": "https://takolad.github.io/",
   "version": "1.5.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "axios": "^1.1.2",
     "bootstrap": "^5.0.2",
