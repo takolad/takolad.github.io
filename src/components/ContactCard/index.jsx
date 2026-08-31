@@ -19,7 +19,7 @@ function ContactCard() {
           <h4>
             Email: <a href="mailto:hinojohn@ymail.com">hinojohn@ymail.com</a>
             <br />
-            Google Voice: <a href="tel:737-231-0139">737-231-0139</a>
+            Google Voice: <a href="tel:210-802-1586">210-802-1586</a>
           </h4>
         </span>
       </div>
