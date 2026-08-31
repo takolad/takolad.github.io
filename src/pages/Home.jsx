@@ -8,14 +8,6 @@ import Col from "react-bootstrap/Col";
 import selfImg from "../assets/images/self-img.jpg";
 
 function Home() {
-  const props = {
-    title: "Hello there!",
-    body:
-      "My name is John Hinojosa and I'm a Full-Stack Developer " +
-      "living in San Antonio. I enjoy learning new technologies " +
-      "and get a kick out of solving problems! Have a look at my portfolio " +
-      "and please feel free to connect with me on LinkedIn!",
-  };
   return (
     <Container className="mt-4" fluid>
       <Row>
@@ -28,11 +20,11 @@ function Home() {
               <Card>
                 <Card.Body>
                   <h3 style={{ fontFamily: "IBM Plex Serif" }}>
-                    {props.title}
+                    Hello there!
                   </h3>
                   My name is <b>John Hinojosa</b> and I'm a{" "}
                   <span id="job-title">
-                    Junior Systems Developer / Full-Stack Developer
+                    Full-Stack Developer
                   </span>
                   &nbsp;living in <b>San Antonio, Texas</b>. I enjoy learning
                   new technologies and get a kick out of solving problems! Have
