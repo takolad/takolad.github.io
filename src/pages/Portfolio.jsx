@@ -5,7 +5,7 @@ import repos from "../util/repos.json";
 
 function Portfolio() {
   return (
-    <Container fluid>
+    <Container>
       {repos.length ? (
         <Row>
           {repos.map((repo) => (
