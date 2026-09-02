@@ -10,6 +10,7 @@ function ContactCard() {
         <img
           className="self-img"
           src={selfImage}
+          style={{ transform: 'scaleX(-1)' }}
           alt="John Hinojosa, handsome, rad, full-stack developer"
         />
       </Col>

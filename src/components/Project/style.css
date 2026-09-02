@@ -1,4 +1,5 @@
-img {
+.self-img {
+  border-radius: 50%;
   max-width: 500px;
   height: 100%;
   width: -moz-available;
