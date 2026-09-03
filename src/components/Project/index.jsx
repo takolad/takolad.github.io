@@ -10,7 +10,6 @@ function Project({ props }) {
       <Link className="card-img-top" to={linkTxt}>
         <img alt={altTxt} src={props.img} className="w-100"/>
       </Link>
-      {/* things to add: group/solo, repo link, conditional for heroku sites */}
       <div className="card-body">
         <div className="d-flex justify-content-between">
           <h5 class="card-title">{props.name}</h5>
