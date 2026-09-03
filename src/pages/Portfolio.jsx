@@ -1,4 +1,3 @@
-import React from "react";
 import { Row, Col, Container } from "../components/Grid";
 import Project from "../components/Project";
 import repos from "../util/repos.json";

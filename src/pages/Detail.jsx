@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useLocation, Navigate } from "react-router-dom";
 import repositories from "../util/repos.json";
 import { Row, Col, Container } from "../components/Grid";

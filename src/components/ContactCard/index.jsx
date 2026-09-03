@@ -1,4 +1,3 @@
-import React from "react";
 import { Col } from "../Grid";
 import selfImage from "../../assets/images/self-img.jpg";
 import "./style.css";
