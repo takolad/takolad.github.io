@@ -1,4 +1,3 @@
-import React from "react";
 import { Col } from "../Grid";
 import selfImage from "../../assets/images/self-img.jpg";
 import "./style.css";
@@ -10,6 +9,7 @@ function ContactCard() {
         <img
           className="self-img"
           src={selfImage}
+          style={{ transform: 'scaleX(-1)' }}
           alt="John Hinojosa, handsome, rad, full-stack developer"
         />
       </Col>
@@ -19,7 +19,7 @@ function ContactCard() {
           <h4>
             Email: <a href="mailto:hinojohn@ymail.com">hinojohn@ymail.com</a>
             <br />
-            Google Voice: <a href="tel:737-231-0139">737-231-0139</a>
+            Google Voice: <a href="tel:210-802-1586">210-802-1586</a>
           </h4>
         </span>
       </div>

@@ -1,11 +1,10 @@
-import React from "react";
 import { Row, Col, Container } from "../components/Grid";
 import Project from "../components/Project";
 import repos from "../util/repos.json";
 
 function Portfolio() {
   return (
-    <Container fluid>
+    <Container>
       {repos.length ? (
         <Row>
           {repos.map((repo) => (
@@ -17,6 +16,7 @@ function Portfolio() {
       ) : (
         <h3>{"No Projects Found 😔"}</h3>
       )}
+      <div>&nbsp;</div>
     </Container>
   );
 }

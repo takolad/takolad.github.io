@@ -22,7 +22,7 @@
         "name": "wandering-adventure",
         "repo_url": "https://github.com/madison-vega/wandering-adventure",
         "deploy_url": "https://wanderingadventure.herokuapp.com/",
-        "img": "https://camo.githubusercontent.com/b70a6d3120285156cd72eeb55a9e26d31f778670ce8b095ddb5bbffa416c0cf0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7832506d4d37633857356a626f324d4352512f67697068792e676966",
+        "img": "https://camo.githubusercontent.com/0057aaa78bd17a675cf50bf0715cece603d03bad41abb6b98c4efc8dfc10c614/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7832506d4d37633857356a626f324d4352512f67697068792e676966",
         "type": "group",
         "description": "A text-adventure web game app, allows a user to create a character and explore and engage in both combat and non-combat events."
     },

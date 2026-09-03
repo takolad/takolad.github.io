@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "../components/Grid";
 import ContactCard from "../components/ContactCard";
 

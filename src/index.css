@@ -13,6 +13,19 @@ body {
   background-image: url("https://images.unsplash.com/photo-1514510249063-e0faf6c6ec0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80");
   background-position: center;
   background-attachment: fixed;
+  background-size:cover;
+}
+
+.self-img {
+  border-radius: 50%;
+  max-width: 500px;
+  height: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  display: flex;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
 }
 
 #job-title {
