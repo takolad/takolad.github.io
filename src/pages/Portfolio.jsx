@@ -17,6 +17,7 @@ function Portfolio() {
       ) : (
         <h3>{"No Projects Found 😔"}</h3>
       )}
+      <div>&nbsp;</div>
     </Container>
   );
 }
