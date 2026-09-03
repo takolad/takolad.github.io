@@ -19,17 +19,19 @@ function Home() {
             <Col sm={12} md={6}>
               <Card>
                 <Card.Body>
-                  <h3 style={{ fontFamily: "IBM Plex Serif" }}>
+                  <span className="fs-3" style={{ fontFamily: "IBM Plex Serif" }}>
                     Hello there!
-                  </h3>
-                  My name is <b>John Hinojosa</b> and I'm a{" "}
-                  <span id="job-title">
-                    Full-Stack Developer
                   </span>
-                  &nbsp;living in <b>San Antonio, Texas</b>. I enjoy learning
-                  new technologies and get a kick out of solving problems! Have
-                  a look at my portfolio and please feel free to connect with me
-                  on LinkedIn!
+                  <p>
+                    My name is <b>John Hinojosa</b> and I'm a{" "}
+                    <span id="job-title">
+                      Full-Stack Developer
+                    </span>
+                    &nbsp;living in <b>San Antonio, Texas</b>. I enjoy learning
+                    new technologies and get a kick out of solving problems! Have
+                    a look at my portfolio and please, feel free to connect with me
+                    on LinkedIn!
+                  </p>
                   <Col sm={12} className="text-center">
                     <Link
                       className="text-white btn btn-primary bg-gradient"
