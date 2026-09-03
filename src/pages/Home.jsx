@@ -9,11 +9,11 @@ import selfImg from "../assets/images/self-img.jpg";
 
 function Home() {
   return (
-    <Container className="mt-4" fluid>
+    <Container fluid>
       <Row>
         <Col sm={12} md={{ span: 10, offset: 1 }}>
           <Row>
-            <Col sm={12} md={{ span: 4, offset: 1 }} lg={{ span: 3, offset: 2 }} className="my-auto mb-4">
+            <Col sm={12} md={{ span: 4, offset: 1 }} lg={{ span: 3, offset: 2 }} className="my-auto">
               <img className="self-img" src={selfImg} />
             </Col>
             <Col sm={12} md={6}>

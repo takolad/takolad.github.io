@@ -6,7 +6,7 @@ import "./style.css";
 
 function NavBar() {
   return (
-    <Navbar bg="primary" variant="dark" expand="md" sticky="top">
+    <Navbar bg="primary" variant="dark" expand="md" sticky="top" className="mb-4">
       <Container>
         <Navbar.Brand href="/">
           John Hinojosa's Portfolio
