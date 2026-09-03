@@ -12,7 +12,7 @@ function Project({ props }) {
       {/* </Link> */}
       <div className="card-body">
         <div className="d-flex justify-content-between">
-          <h5 className="card-title">{props.name}</h5>
+          <h5 className="card-title fw-bold">{props.name}</h5>
           {props.type === "solo" ? (
             <i className="fas fa-male align-self-center"> Solo Project</i>
           ) : (
